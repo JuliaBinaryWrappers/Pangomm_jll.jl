@@ -1,244 +1,274 @@
 [[Pangomm]]
 arch = "aarch64"
-git-tree-sha1 = "57561c507f481081df60be1fba6941e9a43c4088"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b753283ca8cca3eac8ed2fcc6273c2bd04fef536"
 os = "macos"
 
     [[Pangomm.download]]
-    sha256 = "91348ee0ec788ccfff120dfe5d4257ac75525198f0ef237bbdd1b2d11be415ff"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.aarch64-apple-darwin.tar.gz"
-[[Pangomm]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "9b0f9a3bedbaf67ebe0641bd301852ef539a5362"
-libc = "glibc"
-os = "linux"
-
-    [[Pangomm.download]]
-    sha256 = "7c5b27e1ececffdc4ecc8bd03557a8aa4971e175d529348782d2bc2ee3cf1e02"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "d5815d3409fe05f74b2eb96e399d55225d6f407cebd514b943818a3a54198a53"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.aarch64-apple-darwin-cxx03.tar.gz"
 [[Pangomm]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "1f127156eb6c0b386c34b945ec3d4e581791b612"
-libc = "glibc"
-os = "linux"
-
-    [[Pangomm.download]]
-    sha256 = "9ee668aedbae05b4ebfbd53e6e4557d2bdb5674667c476ff346d362b00f350e6"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.aarch64-linux-gnu-cxx11.tar.gz"
-[[Pangomm]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "d883b6007ea449b4a08c147e96c40ab263c784ea"
-libc = "musl"
-os = "linux"
-
-    [[Pangomm.download]]
-    sha256 = "99aed27062ce27e4d94e42797987c661115f2082452d53da4bfb364435a1cac4"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.aarch64-linux-musl-cxx03.tar.gz"
-[[Pangomm]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "ef18a56fb119558b96e709c14d7b7b7905e2b153"
-libc = "musl"
-os = "linux"
-
-    [[Pangomm.download]]
-    sha256 = "866a5a44be5c6174bb58c112abc69d9ee3737a406f0693c3db8650d934d78840"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.aarch64-linux-musl-cxx11.tar.gz"
-[[Pangomm]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "0100a59827be92d4f659a6ca9e593747b3577e02"
-libc = "glibc"
-os = "linux"
-
-    [[Pangomm.download]]
-    sha256 = "ecdea6af19cf4c46e474665bb87d3850e8fe646443920a0848d456d11e3f1ba0"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.armv7l-linux-gnueabihf-cxx03.tar.gz"
-[[Pangomm]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "e6774035c779577d4afc045a1a4d9823d2eab8a7"
-libc = "glibc"
-os = "linux"
-
-    [[Pangomm.download]]
-    sha256 = "277ffcd34859b45488bb5a01a84442bc49af63dd406ae84c53c8dae676ec86e8"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.armv7l-linux-gnueabihf-cxx11.tar.gz"
-[[Pangomm]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "a8d08369336cd8579e438fa268ec6c5951e03a22"
-libc = "musl"
-os = "linux"
-
-    [[Pangomm.download]]
-    sha256 = "9a12e0ce33454fa52666f5ae42935095787593e147b527247a522b9933cf33d8"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.armv7l-linux-musleabihf-cxx03.tar.gz"
-[[Pangomm]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "21dacc2c0532f306da051a5a625bb55eeb9fc4d0"
-libc = "musl"
-os = "linux"
-
-    [[Pangomm.download]]
-    sha256 = "20e19f1745aa73b12074bc3f9a0c89cb380fb42ca1ef6131ea0347cd53f2d9df"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.armv7l-linux-musleabihf-cxx11.tar.gz"
-[[Pangomm]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "5d2b5d6477855310163baffc7b1026d32f3d63dd"
-libc = "glibc"
-os = "linux"
-
-    [[Pangomm.download]]
-    sha256 = "2f0a6b74c6c6a75fb7f5c661459adc49670c0fde3a5b2bb438b07325cae7ef42"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.i686-linux-gnu-cxx03.tar.gz"
-[[Pangomm]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "00ab451ec338ffdef5ffeb00f29980bae50d7d08"
-libc = "glibc"
-os = "linux"
-
-    [[Pangomm.download]]
-    sha256 = "d2f90e08a2da11600b3d071ba2b1a0fe31c4580de4d06df1f86dfe0100c9f201"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.i686-linux-gnu-cxx11.tar.gz"
-[[Pangomm]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "ad409874cd5490e32b3a821310f8e7b6791a004c"
-libc = "musl"
-os = "linux"
-
-    [[Pangomm.download]]
-    sha256 = "e56bd839d6d02bc8d2053f5eb2e3922865f3f634723fd89283f6736bb616de7a"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.i686-linux-musl-cxx03.tar.gz"
-[[Pangomm]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "eb59163f2b50c9ab74e13adfa4ad77c77ffe7c92"
-libc = "musl"
-os = "linux"
-
-    [[Pangomm.download]]
-    sha256 = "04bf56cfcf331d3b7712accfd9de6eaca74f6f50614ce0ee3f50925561745cbf"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.i686-linux-musl-cxx11.tar.gz"
-[[Pangomm]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "d1e7fb76ad9114ee336e840579ed5cf4e6dad976"
-os = "windows"
-
-    [[Pangomm.download]]
-    sha256 = "ac40475078de647137bdf39c68588f5352034965f52278ff118d71649b758910"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.i686-w64-mingw32-cxx03.tar.gz"
-[[Pangomm]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "4ee10a1301c2c83a6929f8e6bf4feb899fbfb469"
-os = "windows"
-
-    [[Pangomm.download]]
-    sha256 = "b0532817e337152c390ddfd1eb88a3f50d3bcde25244aab48c9c9c3015e54f4a"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.i686-w64-mingw32-cxx11.tar.gz"
-[[Pangomm]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "09a1a6240b446af3dfb3f29e43a5c28abeb06a51"
-libc = "glibc"
-os = "linux"
-
-    [[Pangomm.download]]
-    sha256 = "8cf1f4133dd32413f80d38354541677b661da497ed4c73181f92fd0f0df5fe43"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.powerpc64le-linux-gnu-cxx03.tar.gz"
-[[Pangomm]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "b278e843f8c92e91b5c2be7ab6edf399a6853afc"
-libc = "glibc"
-os = "linux"
-
-    [[Pangomm.download]]
-    sha256 = "866c5abe91317b7122d8726f43f9f193be341ffe8079d82f9faccc7bc40726a3"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.powerpc64le-linux-gnu-cxx11.tar.gz"
-[[Pangomm]]
-arch = "x86_64"
-git-tree-sha1 = "e8a49482079ed6f1ed8c79d53b0cdfeb3ae58a73"
+git-tree-sha1 = "0418f508ddb4da0e9bfac937ea7beedbe48e0d4b"
 os = "macos"
 
     [[Pangomm.download]]
-    sha256 = "ed779abe8ef9f7ec6b48b5562974a84808ff947197bed856d3b147d0d1fda80c"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "4e34fa22f5f4cc0d85b9da87ab2a17891859a6e48f3da3a1e6db4216bf411086"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.aarch64-apple-darwin-cxx11.tar.gz"
 [[Pangomm]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "f569f15b5430abfdbd165abbb34ccfb279ce572b"
+git-tree-sha1 = "b3105000f031bf5638e91b1b0221b426220e982d"
 libc = "glibc"
 os = "linux"
 
     [[Pangomm.download]]
-    sha256 = "e6e4f430e6944c1a003bf58b5996db14279f59857cf4ced114be96790d84f06c"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "68e01d870c08a69b3c96f9d83ade604f9af8daff19ca910f171c6bd15013225e"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.aarch64-linux-gnu-cxx03.tar.gz"
 [[Pangomm]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d607f9559a629ffbbff4d10de57a73ecf222430a"
+git-tree-sha1 = "fc26fce5066b9678a813e18a68bf750ed1868866"
 libc = "glibc"
 os = "linux"
 
     [[Pangomm.download]]
-    sha256 = "270aeda70352ce6fcfdb369269a84b03fec2e214c53b448cd157542d1dd8fc27"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "a83f4f2dd0edd40b0ecd50a30e1e4673fdc85eb2f8363e59e1477343d03be722"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.aarch64-linux-gnu-cxx11.tar.gz"
+[[Pangomm]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e700806dfb2a4f6847b8d1af809cdd1a53af537d"
+libc = "musl"
+os = "linux"
+
+    [[Pangomm.download]]
+    sha256 = "55f14108716a44c9948103d740631dff01cbea8e3ebd7704ae7baa54c34f8ae5"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.aarch64-linux-musl-cxx03.tar.gz"
+[[Pangomm]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4a8c07eff03d8823a1e3fbcff090c2c958bdcf8d"
+libc = "musl"
+os = "linux"
+
+    [[Pangomm.download]]
+    sha256 = "3e3405773e9329a0d4ac3f25dbd53aa771069098aa224bbfc71cef9773455b1c"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.aarch64-linux-musl-cxx11.tar.gz"
+[[Pangomm]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6c0bc0c90a841c507a38e44108603dfef4b961cb"
+libc = "glibc"
+os = "linux"
+
+    [[Pangomm.download]]
+    sha256 = "bf751d088f7feded9cfd70eef0d8e523a762a740590b4bcdcf489495b13a33f9"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[Pangomm]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f73157c7c4615719a718893797faf454ff3b0c4f"
+libc = "glibc"
+os = "linux"
+
+    [[Pangomm.download]]
+    sha256 = "804f54e86b24359514019cc43b3dfa8a91ea76668e57d683923c0f7a6e4bf446"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[Pangomm]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9dc6f42b4137c0604856b887a17ad96dd34e61d3"
+libc = "musl"
+os = "linux"
+
+    [[Pangomm.download]]
+    sha256 = "66b12db98508f673c224ab1bb415101782812010e46db92090a6d2bdcd4a6619"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[Pangomm]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c83f3f8e47005ecec57d17f4b86aacddcb323b87"
+libc = "musl"
+os = "linux"
+
+    [[Pangomm.download]]
+    sha256 = "3f8a0526387b413f4bf7b96e5d03fc5240b3a5c198b38fe4c2258b0da162b868"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[Pangomm]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4262ee534f9349b897f40bd2aed0f7ff14b51bd8"
+libc = "glibc"
+os = "linux"
+
+    [[Pangomm.download]]
+    sha256 = "d9be9424adc6d1360ba3bbeba3b76ef35202c734743bec2a6251ab1ce079b3f1"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.i686-linux-gnu-cxx03.tar.gz"
+[[Pangomm]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2209abc453eaa9655c698a880b0c1ade723f59f0"
+libc = "glibc"
+os = "linux"
+
+    [[Pangomm.download]]
+    sha256 = "a0628568080e14bd979c3c6d4f84b448789f135bfff4baf21f873a3c58adebed"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.i686-linux-gnu-cxx11.tar.gz"
+[[Pangomm]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a3fdd14ed854d5dad10c729688f3c6fabaca49ba"
+libc = "musl"
+os = "linux"
+
+    [[Pangomm.download]]
+    sha256 = "8ce71e70118973d1594826c5e3bee3f30134fada4f8da9405c039db67ae739bd"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.i686-linux-musl-cxx03.tar.gz"
+[[Pangomm]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c51b2896715f3cbba3c650b61a6f7ff593c0ef51"
+libc = "musl"
+os = "linux"
+
+    [[Pangomm.download]]
+    sha256 = "102f6df2f5d35a41f40ec2a6c91eb15a7ee48f1a9adf62b2ffe2ef78d55f5303"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.i686-linux-musl-cxx11.tar.gz"
+[[Pangomm]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f8065337ea1c9408b67bf218c3180c8cab47d8b2"
+os = "windows"
+
+    [[Pangomm.download]]
+    sha256 = "e5578323c1a9e39cd73626da19b04d880462ec056ec5da1675f9e557cb26e147"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.i686-w64-mingw32-cxx03.tar.gz"
+[[Pangomm]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5a07bd993514d6669fc2d3389abde83e02ea0aab"
+os = "windows"
+
+    [[Pangomm.download]]
+    sha256 = "db755588d22306abd51a921507b0fce3989838b658694100b0abba18635b44d3"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.i686-w64-mingw32-cxx11.tar.gz"
+[[Pangomm]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "5a137291ba34a1e0f9c9ac804070fd14aca1adb3"
+libc = "glibc"
+os = "linux"
+
+    [[Pangomm.download]]
+    sha256 = "e7efc421593a12bf60505e0b69212fd2f13c77ff31e91d5300e1ef41d057580e"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[Pangomm]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "af1604de9ae1b63e81b33c0ecdb946db2a291769"
+libc = "glibc"
+os = "linux"
+
+    [[Pangomm.download]]
+    sha256 = "6369eae9775bc9e7e489b481124a4097785006ef9c6c1f058542f18689e57022"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[Pangomm]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "8c373cee5f98e78a1920dcbe7cd90f0b03e6133c"
-libc = "musl"
-os = "linux"
+git-tree-sha1 = "d0c17f830bab4189cbbe760bc68c79946900feb9"
+os = "macos"
 
     [[Pangomm.download]]
-    sha256 = "fcdd6c21e4145b8f6d873982dbc44d0f786a2f37b547786ef003907541c5a3c4"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "354c5684abdebabecba780741ce403048cecd70c17e4e2c515569ca3a13f0f4f"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.x86_64-apple-darwin-cxx03.tar.gz"
 [[Pangomm]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "aee79dfdf8eddef486ba985017638970a91baf2c"
+git-tree-sha1 = "4f2c8cb021993ff4f5e6be7e714bb20ae1f75528"
+os = "macos"
+
+    [[Pangomm.download]]
+    sha256 = "445f15c8d1498eccf4c4247662d2ebd8a9b0d5382d17e5869ac371a24d1f53ad"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.x86_64-apple-darwin-cxx11.tar.gz"
+[[Pangomm]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ec69d70590826022a21deeefbdc28fac1f39600b"
+libc = "glibc"
+os = "linux"
+
+    [[Pangomm.download]]
+    sha256 = "cff47af16b63ba70b4bcf0559a19b2c15a3ab265c15838d09af66c0313f7fbe0"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.x86_64-linux-gnu-cxx03.tar.gz"
+[[Pangomm]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "28661e702c35505386ef88f697b7121cf738d0da"
+libc = "glibc"
+os = "linux"
+
+    [[Pangomm.download]]
+    sha256 = "69c28f00fe384308cfb0651a15bd9c0ae291bcd195adcaca1d1bd48d5308afa9"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.x86_64-linux-gnu-cxx11.tar.gz"
+[[Pangomm]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "7c3e8a57734cd52e8d5a7ea3ce8e67b2700ba213"
 libc = "musl"
 os = "linux"
 
     [[Pangomm.download]]
-    sha256 = "5745bba1f68efd031ef159a45281e3044fd0ac28275e4cf41111d441096b38f2"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "6d40c4b06bec6e566c7c7063fcfbca866d00e8dad4f4350e3098ba1bf7fafc8e"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.x86_64-linux-musl-cxx03.tar.gz"
 [[Pangomm]]
 arch = "x86_64"
-git-tree-sha1 = "52c22d4b3b2d92847ef342637cf12e8d508cff12"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "713832d01ffda380cea21a5f8278dd20c5726aee"
+libc = "musl"
+os = "linux"
+
+    [[Pangomm.download]]
+    sha256 = "eb9578e6c86b8ee61a33501fb306e2d27205c3124341bb23706312a4fe7dd0c0"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.x86_64-linux-musl-cxx11.tar.gz"
+[[Pangomm]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4efeb29b0595bb8ec9df2a58c1ea7fcbb88c6f65"
 os = "freebsd"
 
     [[Pangomm.download]]
-    sha256 = "e4d0cd9d0430eb937dc1bf8efddfc08d16211bc4ce88bc8967050c5b596ed57b"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.x86_64-unknown-freebsd.tar.gz"
-[[Pangomm]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "f08bf4363bc4b5628ba273e002d2618b1942d14b"
-os = "windows"
-
-    [[Pangomm.download]]
-    sha256 = "546640506f02b75e0c0f1e3fc6216c0eaf3ff181bb7113c3bb6ba0ce532fc359"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "692840788e703bccb0bc7f783d7d8c131f437bfb89ae3fe3ae201f11b17a56ee"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.x86_64-unknown-freebsd-cxx03.tar.gz"
 [[Pangomm]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "261129cb41f6967a2165b74089a5c8db003c829c"
+git-tree-sha1 = "ee60acd0fc6456cbbcb30d4b68c8c25a74d4fb2f"
+os = "freebsd"
+
+    [[Pangomm.download]]
+    sha256 = "eeaa3ca6d7ab6eb72be4e82ee06f39881252abd12e55a21cef9fbd79abc1ee2c"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.x86_64-unknown-freebsd-cxx11.tar.gz"
+[[Pangomm]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "60007fe3a9ee510cab59fb81d66f09d74dae8a18"
 os = "windows"
 
     [[Pangomm.download]]
-    sha256 = "ae369df6ae3788b301469b86c0fd075ff91ee8ffcc2e51c5f2d902bf042e2a1f"
-    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.49.1+0/Pangomm.v2.49.1.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "03f2cab7deed74f31b32990ef87c7ae5e1ab3c7b5d038d4fe74c7ec776316954"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.x86_64-w64-mingw32-cxx03.tar.gz"
+[[Pangomm]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f25766b5d98749c8db8140d7bce4a62b6561b6d5"
+os = "windows"
+
+    [[Pangomm.download]]
+    sha256 = "a6048de9c87102abdb16ff5324577eefaa237b927506a2e8681b47e0994789bb"
+    url = "https://github.com/JuliaBinaryWrappers/Pangomm_jll.jl/releases/download/Pangomm-v2.46.3+0/Pangomm.v2.46.3.x86_64-w64-mingw32-cxx11.tar.gz"
