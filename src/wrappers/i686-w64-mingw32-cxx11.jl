@@ -5,12 +5,12 @@ using Cairomm_jll
 using Glibmm_jll
 using Pango_jll
 JLLWrappers.@generate_wrapper_header("Pangomm")
-JLLWrappers.@declare_library_product(libpangomm, "libpangomm-1.4-1.dll")
+JLLWrappers.@declare_library_product(libpangomm, "libpangomm-2.48-1.dll")
 function __init__()
     JLLWrappers.@generate_init_header(Cairomm_jll, Glibmm_jll, Pango_jll)
     JLLWrappers.@init_library_product(
         libpangomm,
-        "bin\\libpangomm-1.4-1.dll",
+        "bin\\libpangomm-2.48-1.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
